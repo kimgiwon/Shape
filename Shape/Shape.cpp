@@ -8,7 +8,6 @@ Shape::Shape(int myX, int myY) :x(myX), y(myY) {}
 void Shape::Draw() const {
 	cout << "X=" << x << " Y=" << y;
 }
-double Shape::GetArea() const { return 0; }
 
 //Circle
 Circle::Circle(int x, int y, int myRadius) :Shape(x, y), radius(myRadius) {}
